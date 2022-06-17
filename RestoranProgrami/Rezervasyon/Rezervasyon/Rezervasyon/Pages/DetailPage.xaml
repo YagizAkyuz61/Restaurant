@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Rezervasyon.Pages.DetailPage" BackgroundColor="#F7F5F4" Title="Detaylı">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="Müşterinin Adı:" FontSize="22" TextColor="Black"/>
+            <Label x:Name="cnameLBL" FontSize="22" TextColor="#721ab0"/>
+            <Label Text=" "/>
+
+            <Label Text="Masası:" FontSize="22" TextColor="Black"/>
+            <Label x:Name="tableLBL" FontSize="22" TextColor="#721ab0"/>
+            <Label Text=" "/>
+
+            <Label Text="Tarih:" FontSize="22" TextColor="Black"/>
+            <Label x:Name="dateLBL" FontSize="22" TextColor="#721ab0"/>
+            <Label Text=" "/>
+
+            <Label Text="Saat:" FontSize="22" TextColor="Black"/>
+            <Label x:Name="timeLBL" FontSize="22" TextColor="#721ab0"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

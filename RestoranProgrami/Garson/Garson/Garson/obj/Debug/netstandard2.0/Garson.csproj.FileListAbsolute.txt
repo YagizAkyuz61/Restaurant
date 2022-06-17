@@ -1,0 +1,17 @@
+C:\Users\akyz6\Xamarin\Garson\Garson\Garson\bin\Debug\netstandard2.0\Garson.deps.json
+C:\Users\akyz6\Xamarin\Garson\Garson\Garson\bin\Debug\netstandard2.0\Garson.dll
+C:\Users\akyz6\Xamarin\Garson\Garson\Garson\bin\Debug\netstandard2.0\ref\Garson.dll
+C:\Users\akyz6\Xamarin\Garson\Garson\Garson\bin\Debug\netstandard2.0\Garson.pdb
+C:\Users\akyz6\Xamarin\Garson\Garson\Garson\obj\Debug\netstandard2.0\Garson.csprojAssemblyReference.cache
+C:\Users\akyz6\Xamarin\Garson\Garson\Garson\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\akyz6\Xamarin\Garson\Garson\Garson\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\akyz6\Xamarin\Garson\Garson\Garson\obj\Debug\netstandard2.0\Garson.AssemblyInfoInputs.cache
+C:\Users\akyz6\Xamarin\Garson\Garson\Garson\obj\Debug\netstandard2.0\Garson.AssemblyInfo.cs
+C:\Users\akyz6\Xamarin\Garson\Garson\Garson\obj\Debug\netstandard2.0\Garson.csproj.CoreCompileInputs.cache
+C:\Users\akyz6\Xamarin\Garson\Garson\Garson\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\akyz6\Xamarin\Garson\Garson\Garson\obj\Debug\netstandard2.0\Garson.dll
+C:\Users\akyz6\Xamarin\Garson\Garson\Garson\obj\Debug\netstandard2.0\ref\Garson.dll
+C:\Users\akyz6\Xamarin\Garson\Garson\Garson\obj\Debug\netstandard2.0\Garson.pdb
+C:\Users\akyz6\Xamarin\Garson\Garson\Garson\obj\Debug\netstandard2.0\Pages\OrderPage.xaml.g.cs
+C:\Users\akyz6\Xamarin\Garson\Garson\Garson\obj\Debug\netstandard2.0\Pages\LoginPage.xaml.g.cs
+C:\Users\akyz6\Xamarin\Garson\Garson\Garson\obj\Debug\netstandard2.0\Pages\OrdersPage.xaml.g.cs

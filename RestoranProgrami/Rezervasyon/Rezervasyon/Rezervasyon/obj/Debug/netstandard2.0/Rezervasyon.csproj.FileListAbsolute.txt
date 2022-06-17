@@ -1,0 +1,16 @@
+C:\Users\akyz6\Xamarin\Rezervasyon\Rezervasyon\Rezervasyon\obj\Debug\netstandard2.0\Rezervasyon.csprojAssemblyReference.cache
+C:\Users\akyz6\Xamarin\Rezervasyon\Rezervasyon\Rezervasyon\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\akyz6\Xamarin\Rezervasyon\Rezervasyon\Rezervasyon\obj\Debug\netstandard2.0\Pages\HomePage.xaml.g.cs
+C:\Users\akyz6\Xamarin\Rezervasyon\Rezervasyon\Rezervasyon\obj\Debug\netstandard2.0\Rezervasyon.AssemblyInfoInputs.cache
+C:\Users\akyz6\Xamarin\Rezervasyon\Rezervasyon\Rezervasyon\obj\Debug\netstandard2.0\Rezervasyon.AssemblyInfo.cs
+C:\Users\akyz6\Xamarin\Rezervasyon\Rezervasyon\Rezervasyon\obj\Debug\netstandard2.0\Rezervasyon.csproj.CoreCompileInputs.cache
+C:\Users\akyz6\Xamarin\Rezervasyon\Rezervasyon\Rezervasyon\obj\Debug\netstandard2.0\Pages\AddReservationPage.xaml.g.cs
+C:\Users\akyz6\Xamarin\Rezervasyon\Rezervasyon\Rezervasyon\obj\Debug\netstandard2.0\Pages\DetailPage.xaml.g.cs
+C:\Users\akyz6\Xamarin\Rezervasyon\Rezervasyon\Rezervasyon\obj\Debug\netstandard2.0\Rezervasyon.dll
+C:\Users\akyz6\Xamarin\Rezervasyon\Rezervasyon\Rezervasyon\obj\Debug\netstandard2.0\ref\Rezervasyon.dll
+C:\Users\akyz6\Xamarin\Rezervasyon\Rezervasyon\Rezervasyon\obj\Debug\netstandard2.0\Rezervasyon.pdb
+C:\Users\akyz6\Xamarin\Rezervasyon\Rezervasyon\Rezervasyon\bin\Debug\netstandard2.0\Rezervasyon.deps.json
+C:\Users\akyz6\Xamarin\Rezervasyon\Rezervasyon\Rezervasyon\bin\Debug\netstandard2.0\Rezervasyon.dll
+C:\Users\akyz6\Xamarin\Rezervasyon\Rezervasyon\Rezervasyon\bin\Debug\netstandard2.0\ref\Rezervasyon.dll
+C:\Users\akyz6\Xamarin\Rezervasyon\Rezervasyon\Rezervasyon\bin\Debug\netstandard2.0\Rezervasyon.pdb
+C:\Users\akyz6\Xamarin\Rezervasyon\Rezervasyon\Rezervasyon\obj\Debug\netstandard2.0\XamlC.stamp

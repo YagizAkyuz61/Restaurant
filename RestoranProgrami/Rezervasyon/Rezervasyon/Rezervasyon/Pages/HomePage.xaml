@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Rezervasyon.Pages.HomePage" BackgroundColor="#F7F5F4" Title="Rezervasyon" NavigationPage.HasBackButton="False">
+    <ContentPage.Content>
+        <StackLayout x:Name="outerStack" Spacing="10" Padding="5" Orientation="Vertical">
+            <ListView x:Name="list1" Margin="5" BackgroundColor="White" ItemSelected="list1_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="0">
+                                    <Label Text="{Binding CName}" TextColor="Black" Grid.Column="0" FontAttributes="Bold"
+                                           HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+                                </StackLayout>
+                                
+                                <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="1">
+                                    <Label Text="{Binding Date, StringFormat='{0:dd/MM/yyyy}'}" TextColor="Black" Grid.Column="1"
+                                           FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+                                </StackLayout>
+
+                                <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="2">
+                                    <Label Text="{Binding Time}" TextColor="Black" Grid.Column="2" FontAttributes="Bold"
+                                           HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Button x:Name="rezerBTN" Text="Rezervasyon ekle" Clicked="rezerBTN_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Garson.Pages.OrderPage"
+             Title="Sipariş al"  BackgroundColor="#9c9998">
+    <ContentPage.Content>
+        <StackLayout>
+            <Picker x:Name="tableCB" Margin="5" Title="Masa seçin..." TextColor="Black" TitleColor="Black" ItemDisplayBinding="{Binding TableName}"/>
+
+            <ListView x:Name="list1" Margin="5" BackgroundColor="White" ItemSelected="list1_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout VerticalOptions="CenterAndExpand">
+                                <Label Text="{Binding FoodName}" TextColor="Black" FontAttributes="Bold"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Label x:Name="resultLBL" FontSize="18" TextColor="Black" Text="Sipariş açın..." FontAttributes="Bold" HorizontalOptions="Center"/>
+            <Button x:Name="acceptBTN" Text="Siparişi Onayla" Margin="5" Background="White" TextColor="Black" Clicked="acceptBTN_Clicked"/>
+            <Button x:Name="orderBTN" Text="Siparişler" Margin="5" Background="White" TextColor="Black" Clicked="orderBTN_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

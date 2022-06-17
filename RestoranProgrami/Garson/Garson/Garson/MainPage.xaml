@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Garson.MainPage" BackgroundColor="DimGray">
+
+    <StackLayout>
+        <Picker x:Name="tableCB" Margin="5" Title="Masa seçin..." TextColor="White" TitleColor="White"/>
+        <Picker x:Name="categoryCB" Margin="5" Title="Kategori..." TextColor="White" TitleColor="White"/>
+        <ListView x:Name="list1" Margin="5" BackgroundColor="White"/>
+        <ListView x:Name="list2" Margin="5" Background="White"/>
+        <Button x:Name="acceptBTN" Text="Siparişi Onayla" Margin="5" Background="White" TextColor="Black"/>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Rezervasyon.Pages.AddReservationPage" BackgroundColor="#F7F5F4" Title="Rezervasyon Ekleme">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Rezervasyon Ekleme" TextColor="Black" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="26"/>
+            <Entry x:Name="cnameTXT" Placeholder="Müşteri adı..." FontSize="20" TextColor="Black"/>
+            <Picker x:Name="tableCB" Title="Masa seçin..." FontSize="20" TextColor="Black" ItemDisplayBinding="{Binding TableName}"/>
+            <DatePicker x:Name="datePC" FontSize="20" TextColor="Black"/>
+            <Picker x:Name="timePC" Title="Saat seçin..." FontSize="20" TextColor="Black" ItemDisplayBinding="{Binding Time}"/>
+            <Button x:Name="addBTN" Text="ekle" FontSize="20" TextColor="Black" Clicked="addBTN_Clicked" BackgroundColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
